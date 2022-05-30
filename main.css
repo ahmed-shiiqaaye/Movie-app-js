@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&family=Fira+Sans:wght@400;500;600&family=Germania+One&family=Josefin+Sans&family=Lato&family=Lobster&family=Nunito&family=Oleo+Script&family=Oswald:wght@300;400;500;700&family=PT+Sans:ital@1&family=Poppins:wght@400;500&family=Ubuntu:ital,wght@0,400;0,700;1,500&family=Yanone+Kaffeesatz:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #131313;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px dashed white;
+}
+
+.header .container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+}
+
+.header .container .form h4 {
+  font-weight: normal;
+  font-size: 15px;
+  margin-right: 7px;
+}
+
+.header .container .form input#form {
+  background: #ffffff17;
+  padding: 5px;
+  border: 1px solid #919191;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid #ffffffd5;
+}
+
+.header .container .form #go {
+  padding: 6px;
+  font-weight: bold;
+}
+
+.body .container {
+  width: 100%;
+  padding: 10px;
+}
+
+.body .container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.body .container .grid .card {
+  overflow: hidden;
+  position: relative;
+}
+
+.body .container .grid .card img {
+  width: 100%;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.body .container .grid .card .details .inner-flex {
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4px;
+}
+
+.body .container .grid .card .details .year h4 {
+  font-weight: normal;
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */
